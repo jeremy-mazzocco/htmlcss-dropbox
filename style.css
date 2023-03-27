@@ -7,6 +7,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
 
 .container {
@@ -32,7 +33,6 @@ nav {
     padding: 10px 10px;
     text-decoration: none;
     color: black;
-    font-size: 13px;
 }
 
 #logo-dropbox {
@@ -54,6 +54,7 @@ main {
 /* jumbotron */
 .jumbotron-container {
     background-color: rgb(180, 208, 231);
+    padding-bottom: 10px;
 }
 
 .jumbotron {
@@ -64,7 +65,7 @@ main {
 
 .jumbotron-header {
     font-size: 50px;
-    padding: 5% 0%;
+    padding: 40px 0px;
 }
 
 .jumbotron-text {
@@ -74,9 +75,8 @@ main {
 }
 
 #jumbotron-button {
-    margin: 7% 0%;
+    margin: 25px 0px;
 }
-
 
 .fa-arrow-down {
     font-size: 35px;
@@ -94,8 +94,20 @@ main {
     max-width: 100%;
 }
 
-.business {
-    width: 60%;
+/* plans selection */
+.plans-header {
+    width: 70%;
     margin: auto;
     border: 1px solid;
+}
+
+.plans-header>h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 80px 0px;
+}
+
+.plans {
+    display: flex;
+
 }
