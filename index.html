@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@500&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
@@ -17,49 +18,61 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-left">
-            <span class="header-item"><img id="logo-dropbox" src="img/logo-small.png" alt=""></span>
-            <span class="header-item">Perchè DropBox</span>
-            <span class="header-item">Funzioni</span>
-            <span class="header-item">Piani e Prezzi</span>
-        </div>
-        <div class="header-right">
-            <span class="header-item">Supporto</span>
-            <span class="header-item">Contatta l'uffficio vendite</span>
-            <span class="header-item">Accedi</span>
-            <span class="header-item"><button class="button-blue">Inizia</button></span>
-        </div>
-    </header>
-    <main>
-        <div class="jumbotron-container">
-            <div class="jumbotron">
-                <p class="jumbotron-header">
-                    Tutto cio che ti serve per il lavoro, in un unico posto
-                </p>
-                <div class="jumbotron-text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat perspiciatis illo aliquid
-                        aperiam officiis voluptas ea. Non itaque saepe ullam pariatur facere adipisci eveniet?
-                        Accusantium deserunt suscipit in. Laudantium!
-                    </p>
-                    <button class="button-blue" id="jumbotron-button">
-                        Inizia la tua prova gratuita
-                    </button>
-                    <p>
-                        Annulla in qualsiasi momento
-                    </p>
-                    <i class="fa-solid fa-arrow-down"></i>
-                </div>
-                <div class="jumbotron-img">
-                    <img id="img-jumbo" src="img/jumbo.png" alt="">
-
-                </div>
+    <div class="container">
+        <!-- nav -->
+        <nav>
+            <div class="header-left">
+                <a href="#" class="header-item"><img id="logo-dropbox" src="img/logo-small.png" alt=""></a>
+                <a href="#" class="header-item">Perchè DropBox</a>
+                <a href="#" class="header-item">Funzioni</a>
+                <a href="#" class="header-item">Piani e Prezzi</a>
             </div>
-
-        </div>
-    </main>
-
+            <div class="header-right">
+                <a href="#" class="header-item">Supporto</a>
+                <a href="#" class="header-item">Contatta l'uffficio vendite</a>
+                <a href="#" class="header-item">Accedi</a>
+                <button class="button-blue">Inizia</button>
+            </div>
+        </nav>
+        <main>
+            <!-- jumbotron -->
+            <section class="jumbotron-container">
+                <div class="jumbotron">
+                    <h1 class="jumbotron-header">
+                        Tutto cio che ti serve per il lavoro, in un unico posto
+                    </h1>
+                    <div class="jumbotron-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat perspiciatis illo
+                            aliquid
+                            aperiam officiis voluptas ea. Non itaque saepe ullam pariatur facere adipisci eveniet?
+                            Accusantium deserunt suscipit in. Laudantium!
+                        </p>
+                        <button class="button-blue" id="jumbotron-button">
+                            Inizia la tua prova gratuita
+                        </button>
+                        <p>
+                            Annulla in qualsiasi momento
+                        </p>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                    <div class="jumbotron-img">
+                        <img id="img-jumbotron" src="img/jumbo.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <div class="business">
+                <!-- business selection -->
+                <section>
+                    <h2>
+                        Trova il piano business che fa per te
+                    </h2>
+                    <label for=""></label>
+                    <input type="radio">
+                </section>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>
