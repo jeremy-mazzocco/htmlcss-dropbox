@@ -299,7 +299,7 @@ hr {
     padding-bottom: 20px;
 }
 
-/* business Dropbox */
+/* business Dropbox column */
 
 .business>h2 {
     width: 50%;
@@ -309,6 +309,7 @@ hr {
     display: flex;
     margin-top: 100px;
 }
+
 
 .business-column {
     width: calc(100% / 3);
@@ -323,6 +324,10 @@ hr {
 .business-column-img {
     width: calc(100% / 2);
     height: calc(100% / 2);
+}
+
+.business-column-img:active {
+    border: 10px solid rgba(255, 255, 255, 0.562);
 }
 
 .business-column-img>img {
