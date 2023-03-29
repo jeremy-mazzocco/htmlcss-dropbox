@@ -174,7 +174,6 @@ li {
     margin-left: -10px;
 }
 
-/* testo non deve andarare sotto alla icona */
 
 .plans-icon {
     padding: 5px 0px;
@@ -302,14 +301,12 @@ li {
 .operazioni-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px 15px;
+    margin: 0px -7px;
 }
 
-/* CALCOLO WIDTH DA RIFARE!!! USARE PAD E MARGIN NEGATIVO e non GAP */
-
-/* Si muove quanddo clicco il logo... */
 .card {
-    width: calc(100% / 3 - 15px);
+    width: calc(100% / 3);
+    padding: 0px 18px;
 }
 
 .card-img>img {
