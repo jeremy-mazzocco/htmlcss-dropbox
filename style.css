@@ -155,6 +155,25 @@ li {
     line-height: 25px;
 }
 
+
+#fa-utente::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    margin-left: -10px;
+}
+
+#fa-folder::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f07b";
+    margin-left: -10px;
+}
+
+#fa-node::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1e0";
+    margin-left: -10px;
+}
+
 /* testo non deve andarare sotto alla icona */
 
 .plans-icon {
