@@ -111,7 +111,7 @@ main {
     max-width: 69%;
     display: inline-block;
     position: relative;
-    bottom: -55px;
+    top: 55px;
 }
 
 #img-jumbotron {
@@ -345,7 +345,6 @@ li {
 
 .business-column-img {
     width: calc(100% / 2);
-    height: calc(100% / 2);
     position: relative;
 }
 
