@@ -454,22 +454,6 @@ li {
 
 /* domande frequenti */
 
-/* menu tendina */
-input,
-ul.submenu {
-    display: none;
-}
-
-label {
-    position: relative;
-    display: block;
-    cursor: pointer;
-}
-
-input:checked~ul.submenu {
-    display: block;
-}
-
 .domande-text {
     padding: 35px 0px;
     font-weight: bold;
@@ -487,6 +471,40 @@ input:checked~ul.submenu {
 
 .domande-text>a {
     padding: 5px;
+}
+
+
+/* menu tendina */
+
+label {
+    cursor: pointer;
+}
+
+#check01:checked~ul.submenu01 {
+    display: block;
+}
+
+#check01,
+ul.submenu01 {
+    display: none;
+}
+
+#check02:checked~ul.submenu02 {
+    display: block;
+}
+
+#check02,
+ul.submenu02 {
+    display: none;
+}
+
+#check03:checked~ul.submenu03 {
+    display: block;
+}
+
+#check03,
+ul.submenu03 {
+    display: none;
 }
 
 /* footer */
